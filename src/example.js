@@ -1,9 +1,6 @@
-// This file has linting errors
-const unusedVar = 'test';
-
+// Fixed linting errors
 function example() {
-  console.log("Hello world");
-  let anotherUnused = 'unused';
+  console.log('Hello world');
 }
 
-example()
+example();
